@@ -13,22 +13,25 @@ body {
 }
 .texttwo {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%);
+    left: 40%;
+    top: 55%;
+    transform: translateX(-20%);
 }
 .textone {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 40%;
-    transform: translateX(-50%);
+    transform: translateX(-20%);
 }
 .textthree {
     position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translateX(-50%);
+    left: 40%;
+    top: 70%;
+    transform: translateX(-20%);
 }
+
+
+
 :root {
     --margin-top: 0;
     --margin-left: 0;

@@ -102,20 +102,25 @@ let textone = document.querySelector('.textone').querySelector('h1');
       let textthree = document.querySelector('.textthree').querySelector('h1');
 
       setTimeout(function(){
-        textone.innerHTML = '今晚，整片星空将为你一人';
+		  textone.innerHTML = 'VV 你好呀！很高兴认识你';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           texttwo.style.color = '#E8F9FD';
           texttwo.style.fontFamily = '楷体'
           textthree.style.color = '#E8F9FD';
           textthree.style.fontFamily = '楷体'
-          texttwo.innerHTML = '';
-      },28000)
-      setTimeout(function(){
-        textone.innerHTML = '从前从前,有个人爱你很久';
-        texttwo.innerHTML = '但偏偏，风渐渐';
-        textthree.innerHTML = '把距离吹的好远';
-      },112500)
+          texttwo.innerHTML = '前两周一直在加班写文档，回宿舍的时候已经好晚了，所以也不太好意思找你聊天 \n 然后过了两周，文档写的差不多了，又不知道如何开口了，感觉在聊天就很突兀 = =';
+		  textthree.innerHTML = '所以，就这能借助这样的方式啦,,这三天白天上班网上写这个代码，终于做出来了 \n 就是做的不太好看，哈哈哈 (◕ᴗ◕✿)';
+      },6000)
+	  
+	  	setTimeout(function(){
+        textone.innerHTML = '我也比较内向，所以只能靠我比较擅长的形式打开话题了，希望你喜欢';
+        texttwo.innerHTML = '这个域名是属于你的专属了~ \n 这十年内独一无二的哦';
+        textthree.innerHTML = '以上就是我想说，不知道你能听见这个背景音乐嘛！';
+
+      },20000)
+	  
+
 
 
  
